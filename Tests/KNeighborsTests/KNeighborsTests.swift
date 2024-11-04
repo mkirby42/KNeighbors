@@ -26,7 +26,7 @@ final class KDTreeTests: XCTestCase {
 
         print("Nearest neighbors to \(target):")
         for (point, dist) in neighbors {
-            print("Point: \(point), Distance: \(dist)")
+            print("Point: \(point) - Distance: \(dist)")
         }
     }
     
@@ -39,7 +39,7 @@ final class KDTreeTests: XCTestCase {
 
         print("Nearest neighbors to \(target4D):")
         for (point, dist) in neighbors {
-            print("Point: \(point), Distance: \(dist)")
+            print("Point: \(point) - Distance: \(dist)")
         }
     }
     
